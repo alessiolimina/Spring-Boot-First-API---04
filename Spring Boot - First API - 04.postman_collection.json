@@ -70,19 +70,19 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "json",
+					"_postman_previewlanguage": "plain",
 					"header": [
 						{
 							"key": "Content-Type",
-							"value": "application/json"
+							"value": "text/plain;charset=UTF-8"
 						},
 						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
+							"key": "Content-Length",
+							"value": "16"
 						},
 						{
 							"key": "Date",
-							"value": "Wed, 12 Apr 2023 18:01:58 GMT"
+							"value": "Thu, 13 Apr 2023 08:24:50 GMT"
 						},
 						{
 							"key": "Keep-Alive",
@@ -94,7 +94,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "\"localhost:8080\""
+					"body": "[localhost:8080]"
 				}
 			]
 		}

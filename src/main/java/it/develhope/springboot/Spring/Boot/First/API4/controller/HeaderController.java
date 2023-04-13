@@ -10,8 +10,9 @@ import java.net.InetSocketAddress;
 public class HeaderController {
 
     @GetMapping("/")
-    public InetSocketAddress getNameHost (@RequestHeader HttpHeaders headers){
-        return headers.getHost();
+    public String getNameHost (@RequestHeader HttpHeaders headers){
+        String header = String.valueOf(headers.get("host"));
+        return header;
     }
     // Documentazione Postman: https://documenter.getpostman.com/view/26121086/2s93XvWjhi
 }
